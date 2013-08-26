@@ -34,8 +34,8 @@ If you haven't done so already, get set up with the following steps:
 * [Set up the NXC platform](http://nxc.ruby4kids.com/Downhome/Topic1)
 * [Configure USB (Linux)](http://bricxcc.sourceforge.net/nbc/doc/nxtlinux.txt)
 
-Then, with the nbc command set up and on your path, run the following
-from the `scorpion` directory.
+Then, with the `nbc` command set up and on your path, run the
+following from the `scorpion` directory.
 
     nbc -d scorpion.nxc
 
