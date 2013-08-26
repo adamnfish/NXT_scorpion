@@ -1,0 +1,15 @@
+#define ULTRASOUND	SENSOR_1
+#define NEAR		16  // cm
+
+task main() {
+  SetSensorLowspeed(IN_1);
+  ClearScreen();
+  PlayTone(440, 50);
+  while(true) {
+    until(SensorUS(IN_1) < NEAR);
+    PlayTone(880, 50);
+    RotateMotor(OUT_A, 100, 80);
+    Wait(500);
+    RotateMotor(OUT_A, 70, -80);
+  }
+}
