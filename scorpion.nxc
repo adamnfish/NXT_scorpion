@@ -1,4 +1,3 @@
-#define ULTRASOUND	SENSOR_1
 #define NEAR		16  // cm
 
 task main() {
