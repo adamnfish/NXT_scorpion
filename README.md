@@ -23,3 +23,20 @@ default NXT 2.0 kit. My kit only contains two 15-length pieces, which
 is less than the sting mechanism requires. I got around this by
 scaling down the size of the sting by replacing 15-length pieces with
 13, 13 with 11 and so on.
+
+## Usage
+
+You'll need to build a suitable machine out of the Mindstorms kit. You
+can then connect it to your computer using a USB cable.
+
+If you haven't done so already, get set up with the following steps:
+
+* [Set up the NXC platform](http://nxc.ruby4kids.com/Downhome/Topic1)
+* [Configure USB (Linux)](http://bricxcc.sourceforge.net/nbc/doc/nxtlinux.txt)
+
+Then, with the nbc command set up and on your path, run the following
+from the `scorpion` directory.
+
+    nbc -d scorpion.nxc
+
+This will compile the program and send it to the connected NXT device.
